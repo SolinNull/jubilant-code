@@ -6,15 +6,19 @@ This is a basic calculator that can do four operations; addition, subtraction, s
 """
 
 def addition(a, b):
+    """ Addition Operator """
     return a + b
 
 def subtraction(a, b):
+    """ Subtraction Operator """
     return a - b
 
 def summation(a, b):
+    """ Summation Operator """
     return a * b
 
 def division(a, b):
+    """ Division Operator """
     if b == 0:
-        return ValueError("Divison by Zero!")
+        raise ValueError("Divison by Zero!")
     return a / b
